@@ -7,6 +7,10 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('alpha');
+  this.route('bravo', function() {
+    this.route('november');
+  });
 });
 
 export default Router;

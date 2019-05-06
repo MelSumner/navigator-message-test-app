@@ -21,6 +21,7 @@
     "@ember/jquery": "^0.5.2",
     "@ember/optional-features": "^0.6.3",
     "broccoli-asset-rev": "^2.7.0",
+    "ember-a11y-refocus": "^0.1.0",
     "ember-ajax": "^5.0.0",
     "ember-cli": "~3.9.0",
     "ember-cli-app-version": "^3.2.0",
