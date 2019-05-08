@@ -13,6 +13,7 @@
     <li>completely ignored</li>
     <li>issue filed with screen readers themselves</li>
     <li>manually placing focus on the page's h1 element when a new view renders</li>
+    <li>manually re-setting focus when the page transition occurs</li>
     <li>programmatically placing focus on the new content on the page by using a container component that can be targeted</li>
     <li>use of <code>aria-live</code> (eep!)</li>
     <li>implementing a skip-link to at least place the focus in a predictable way</li>
@@ -24,9 +25,10 @@
 <p>
   The ember-a11y-refocus addon attempts to provide a sensible resolution for all involved:
   <ol>
-    <li>the performance gains from `pushState` remain in place</li>
+    <li>the performance gains from <code>`pushState`</code> remain in place</li>
     <li>users with assistive technology are informed that a page transition has occurred</li>
     <li>the focus is reset to the message itself, which also resets the focus of the page (as is desired for the screen-reader user)</li>
+    <li><code>aria-live</code> can remain available for things that genuinely need it (a page transition should not need it)</li>
   </ol> 
 </p>
 <p><strong>To try it out, navigate through some of the items in the navbar while browsing with your screen reader of choice.</strong></p>
