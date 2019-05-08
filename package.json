@@ -2,10 +2,10 @@
   "name": "navigator-message-test-app",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for navigator-message-test-app goes here",
-  "repository": "",
+  "description": "Demo app for the ember-a11y-refocus addon",
+  "repository": "https://github.com/MelSumner/navigator-message-test-app",
   "license": "MIT",
-  "author": "",
+  "author": "Melanie Sumner <melaniersumner@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -21,7 +21,7 @@
     "@ember/jquery": "^0.5.2",
     "@ember/optional-features": "^0.6.3",
     "broccoli-asset-rev": "^2.7.0",
-    "ember-a11y-refocus": "^0.3.0",
+    "ember-a11y-refocus": "^0.3.1",
     "ember-ajax": "^5.0.0",
     "ember-cli": "~3.9.0",
     "ember-cli-app-version": "^3.2.0",
